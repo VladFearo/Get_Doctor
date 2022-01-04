@@ -826,6 +826,7 @@ int main()
 		case 1:
 			do
 			{
+				print("Doctors menu:\n");
 				printf(" 1. Log in\n 2. Register\n 3. Exit\n");
 				scanf("%d", &LogRegDoc);
 
@@ -877,6 +878,7 @@ int main()
 
 		case 2:
 			do {
+				print("Patients menu:\n");
 				printf(" 1. Log in\n 2. Register\n 3. Exit\n");
 				scanf("%d", &LogRegPat);
 				switch (LogRegPat)
